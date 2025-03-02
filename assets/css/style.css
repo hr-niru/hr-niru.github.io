@@ -223,14 +223,6 @@ h6 {
   height: 100vh;
   background: url("../img/hr-bg.jpg") top center;
   background-size: cover;
-  animation: changeBackground 10s infinite linear;
-}
-
-@keyframes changeBackground {
-  0% { background-image: url("../img/hr-bg.jpg"); }
-  33% { background-image: url("../img/hr-bg1.jpg"); }
-  66% { background-image: url("../img/hr-bg2.jpg"); }
-  100% { background-image: url("../img/hr-bg.jpg"); }
 }
 
 #hero:before {
